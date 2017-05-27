@@ -7,7 +7,6 @@ core: '8.x'
 base theme: classy
 
 libraries:
-  - core/normalize
   - bananakid/global-styling
 
 libraries-override:

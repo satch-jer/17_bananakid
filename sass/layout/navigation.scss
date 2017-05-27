@@ -1,0 +1,23 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+header{
+  padding-top: $s;
+  padding-bottom: $s;
+}
+
+#block-sitebranding{
+  height: 25px;
+  width: 60px;
+  margin: 0 auto $xs auto;
+}
+
+nav{
+  font-weight: 700;
+  text-align: center;
+
+  li{
+    padding: $xs;
+  }
+}
+
+

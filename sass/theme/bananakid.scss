@@ -1,5 +1,21 @@
 @import "colors", "fonts", "spacing";
 
+
+html{
+  //make sure fonts are sharp!
+  -webkit-font-smoothing: antialiased;
+
+  //width
+  width: 100%;
+}
+
 body{
-  background-color: pink;
+  //font default
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: $night;
+
+  //div elements have padding and border included in total w&h
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }

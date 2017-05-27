@@ -1,8 +1,15 @@
 global-styling:
   version: 1
   css:
+    base:
+      css/base/reset.css: {}
     theme:
       css/theme/bananakid.css: {}
+    layout:
+      css/layout/landing.css: {}
+      css/layout/navigation.css: {}
+    component:
+      css/component/text.css: {}
   js:
     js/bananakid.js: {}
   dependencies:

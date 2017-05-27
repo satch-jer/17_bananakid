@@ -45,7 +45,7 @@
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-landing">
+    <div class="layout-landing" style="background-image: url('{{ file_url(node.field_basic_image_landing.0.entity.uri.value) }}');background-size:cover;">
       {{ page.landing }}
     </div>{# /.layout-landing #}
 
