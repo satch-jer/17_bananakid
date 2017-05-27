@@ -1,0 +1,11 @@
+global-styling:
+  version: 1
+  css:
+    theme:
+      css/theme/bananakid.css: {}
+  js:
+    js/bananakid.js: {}
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+      - core/drupal

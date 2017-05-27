@@ -1,0 +1,20 @@
+name: bananakid
+type: theme
+description: 'Custom theme for Banana Kid, made with love by <a href="http://satch.cc">satch.cc</a>'
+package: Core
+hidden: false
+core: '8.x'
+base theme: classy
+
+libraries:
+  - core/normalize
+  - bananakid/global-styling
+
+libraries-override:
+  classy/base: false
+
+regions:
+  header: Header
+  landing: Landing
+  content: Content
+  footer: Footer
