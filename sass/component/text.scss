@@ -1,6 +1,11 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
 h1{
   font-family: 'Gochi Hand', cursive;
   font-size: 48px;
+  color: $snow;
+  font-variant: small-caps;
+  margin-bottom: $s;
 }
 
 h2{

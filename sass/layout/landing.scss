@@ -3,4 +3,21 @@
 .layout-landing{
   //support for non-js browsers
   height: 400px;
+  width: 100%;
+  display: table;
+}
+
+.region-landing{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner-landing{
+  text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .layout-landing{
+    background-attachment: fixed;
+  }
 }

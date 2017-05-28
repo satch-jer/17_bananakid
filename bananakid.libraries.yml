@@ -10,9 +10,18 @@ global-styling:
       css/layout/navigation.css: {}
     component:
       css/component/text.css: {}
+      css/component/button.css: {}
+    state:
+      css/state/button.css: {}
+      css/state/link.css: {}
   js:
     js/bananakid.js: {}
   dependencies:
       - core/jquery
       - core/jquery.once
       - core/drupal
+
+landingheight:
+  version: 1
+  js:
+    js/landingheight.js: {}

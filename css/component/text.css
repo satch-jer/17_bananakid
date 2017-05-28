@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Lato:400,700,900");
 h1 {
   font-family: 'Gochi Hand', cursive;
-  font-size: 48px; }
+  font-size: 48px;
+  color: #FFFFFF;
+  font-variant: small-caps;
+  margin-bottom: 25px; }
 
 h2 {
   font-size: 24px;
