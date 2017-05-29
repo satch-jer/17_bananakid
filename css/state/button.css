@@ -1,9 +1,5 @@
 .btn-blue .field__item a:hover {
   background-color: transparent;
-  color: #004BA8;
-  transform: scale(0.95);
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  -moz-transform: scale(0.95); }
+  color: #004BA8; }
 
 /*# sourceMappingURL=button.css.map */

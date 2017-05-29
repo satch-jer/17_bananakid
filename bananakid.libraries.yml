@@ -8,12 +8,15 @@ global-styling:
     layout:
       css/layout/landing.css: {}
       css/layout/navigation.css: {}
+      css/layout/category.css: {}
+      css/layout/content.css: {}
     component:
       css/component/text.css: {}
       css/component/button.css: {}
     state:
       css/state/button.css: {}
       css/state/link.css: {}
+      css/state/category.css: {}
   js:
     js/bananakid.js: {}
   dependencies:

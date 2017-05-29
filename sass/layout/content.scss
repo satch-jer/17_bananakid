@@ -1,0 +1,21 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+.node__content{
+  background-color: $smurf;
+  color: $snow;
+  padding: $xxl 0;
+  text-align: left;
+
+  div{
+    margin-left: $s;
+  }
+
+  .field--type-link{
+    font-weight: 700;
+    margin-top: $m;
+    font-size: 18px;
+    a{
+      color: $kiwi;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+.view-categorieen{
+  
+  .views-row{
+    width: 50%;
+    position: relative;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .views-field-name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-in-out;
+
+
+    a{
+      border: 2px solid $snow;
+      border-radius: $s;
+      width: $xl;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      color: $snow;
+      display: inline-block;
+      font-variant: small-caps;
+      font-size: 24px;
+      font-weight: 700;
+      visibility: hidden;
+    }
+  }
+
+  .views-field-name:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .views-row:nth-child(2){
+    left: 50%;
+  }
+}

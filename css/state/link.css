@@ -1,9 +1,4 @@
-nav li:hover {
-  transform: scale(0.95);
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  -moz-transform: scale(0.95); }
-  nav li:hover a {
-    color: #D2CBCB; }
+nav li:hover a {
+  color: #D2CBCB; }
 
 /*# sourceMappingURL=link.css.map */

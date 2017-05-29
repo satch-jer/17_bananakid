@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAIE,YAAQ;EAKN,SAAS,EAAE,WAAU;EACrB,iBAAiB,EAAE,WAAU;EAC7B,aAAa,EAAE,WAAU;EACzB,cAAc,EAAE,WAAU;EAP1B,cAAC;IACC,KAAK,ECAA,OAAO",
+"mappings": "AAII,cAAC;EACC,KAAK,ECEA,OAAO",
 "sources": ["../../sass/state/link.scss","../../sass/theme/_colors.scss"],
 "names": [],
 "file": "link.css"

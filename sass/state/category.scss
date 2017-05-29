@@ -1,0 +1,8 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+.views-field-name:hover{
+  background-color: $smurf;
+  a{
+    visibility: visible;
+  }
+}
