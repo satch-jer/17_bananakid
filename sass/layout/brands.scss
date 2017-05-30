@@ -1,0 +1,31 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+#block-views-block-merken-block-1{
+  margin: $xxl 0;
+}
+
+.view-merken{
+  max-width: 960px;
+  margin: 0 auto;
+
+  .views-row{
+    width: 25%;
+    height: $xxl;
+    float: left;
+    display: table;
+
+    .views-field-field-field-image-merk{
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    img{
+      min-width: 100px;
+      width: 50%;
+      height: 50%;
+      //no 1px break due to img being inline
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

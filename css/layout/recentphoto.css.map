@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,8BAAU;EACR,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;EAEX,kCAAG;IACD,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IAEZ,OAAO,EAAE,KAAK",
+"sources": ["../../sass/layout/recentphoto.scss"],
+"names": [],
+"file": "recentphoto.css"
+}

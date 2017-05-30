@@ -1,4 +1,10 @@
 nav li:hover a {
   color: #D2CBCB; }
 
+footer a:hover {
+  color: #222222; }
+
+.node__content .field--type-link a:hover {
+  color: #FFFFFF; }
+
 /*# sourceMappingURL=link.css.map */

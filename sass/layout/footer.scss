@@ -1,0 +1,44 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+footer{
+
+  margin: $m;
+
+  p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: $concrete;
+    line-height: 1;
+    margin-bottom: $s;
+
+    img{
+      height: 9px;
+      width: auto;
+    }
+  }
+
+  a{
+    text-decoration: underline;
+    color: $concrete;
+    transition: all .2s ease-in-out;
+  }
+
+  img{
+    height: 15px;
+    width: auto;
+  }
+
+  span{
+    color: $kiwi;
+  }
+}
+
+#block-socialmedia{
+  margin-bottom: $s;
+
+  .field--name-field-image-instagram,
+  .field--name-field-image-facebook{
+    display: inline;
+  }
+}

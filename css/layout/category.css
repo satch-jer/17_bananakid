@@ -4,7 +4,8 @@
   position: relative; }
   .view-categorieen .views-row img {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    display: block; }
 .view-categorieen .views-field-name {
   position: absolute;
   text-align: center;

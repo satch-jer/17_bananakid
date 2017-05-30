@@ -9,6 +9,8 @@
     img{
       width: 100%;
       height: 100%;
+      //no 1px break due to img being inline
+      display: block;
     }
   }
 

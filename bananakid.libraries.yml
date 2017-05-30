@@ -8,8 +8,11 @@ global-styling:
     layout:
       css/layout/landing.css: {}
       css/layout/navigation.css: {}
+      css/layout/footer.css: {}
       css/layout/category.css: {}
       css/layout/content.css: {}
+      css/layout/recentphoto.css: {}
+      css/layout/brands.css: {}
     component:
       css/component/text.css: {}
       css/component/button.css: {}

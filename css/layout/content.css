@@ -1,16 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Lato:400,700,900");
 .node__content {
   background-color: #004BA8;
   color: #FFFFFF;
   padding: 150px 0;
   text-align: left; }
   .node__content div {
-    margin-left: 25px; }
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 960px; }
   .node__content .field--type-link {
     font-weight: 700;
     margin-top: 50px;
     font-size: 18px; }
     .node__content .field--type-link a {
-      color: #47F08F; }
+      color: #47F08F;
+      transition: all .2s ease-in-out; }
 
 /*# sourceMappingURL=content.css.map */

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Lato:400,700,900");
+#block-views-block-merken-block-1 {
+  margin: 150px 0; }
+
+.view-merken {
+  max-width: 960px;
+  margin: 0 auto; }
+  .view-merken .views-row {
+    width: 25%;
+    height: 150px;
+    float: left;
+    display: table; }
+    .view-merken .views-row .views-field-field-field-image-merk {
+      display: table-cell;
+      vertical-align: middle; }
+    .view-merken .views-row img {
+      min-width: 100px;
+      width: 50%;
+      height: 50%;
+      display: block;
+      margin: 0 auto; }
+
+/*# sourceMappingURL=brands.css.map */
