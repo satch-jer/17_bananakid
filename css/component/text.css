@@ -3,6 +3,7 @@ h1 {
   font-family: 'Gochi Hand', cursive;
   font-size: 48px;
   color: #FFFFFF;
+  text-transform: lowercase;
   font-variant: small-caps;
   margin-bottom: 25px; }
 
