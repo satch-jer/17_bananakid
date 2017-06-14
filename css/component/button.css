@@ -15,4 +15,20 @@
     border: 3px solid #004BA8;
     transition: all .2s ease-in-out; }
 
+.more-link {
+  display: inline-block;
+  width: 100px;
+  margin-top: 100px; }
+  .more-link a {
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #47F08F;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+    border: 3px solid #47F08F;
+    transition: all .2s ease-in-out; }
+
 /*# sourceMappingURL=button.css.map */

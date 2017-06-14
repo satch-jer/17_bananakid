@@ -1,4 +1,7 @@
-.view-recent-photos{
+@import "../theme/spacing";
+
+
+.view-recent-photos, .view-assortiment-filter{
   .views-row{
     width: 50%;
     float: left;
@@ -10,4 +13,9 @@
       display: block;
     }
   }
+}
+
+.view-assortiment-filter{
+  margin-top: $xl;
+  margin-bottom: $xl;
 }

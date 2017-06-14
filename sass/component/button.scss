@@ -20,3 +20,22 @@
     }
   }
 }
+
+.more-link{
+  display: inline-block;
+  width: $xl;
+  margin-top: $xl;
+
+  a{
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $kiwi;
+    color: $snow;
+    border-radius: $s;
+    font-weight: 700;
+    border: 3px solid $kiwi;
+    transition: all .2s ease-in-out;
+  }
+}

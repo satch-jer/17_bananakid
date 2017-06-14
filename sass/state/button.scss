@@ -5,9 +5,14 @@
     a:hover{
       background-color: transparent;
       color: $smurf;
-
-      //transform: scale(1.05);
     }
+  }
+}
+
+.more-link{
+  a:hover{
+    background-color: transparent;
+    color: $kiwi;
   }
 }
 

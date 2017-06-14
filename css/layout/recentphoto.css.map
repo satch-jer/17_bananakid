@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACE,8BAAU;EACR,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;EAEX,kCAAG;IACD,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IAEZ,OAAO,EAAE,KAAK",
-"sources": ["../../sass/layout/recentphoto.scss"],
+"mappings": "AAIE,mEAAU;EACR,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;EAEX,2EAAG;IACD,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IAEZ,OAAO,EAAE,KAAK;;AAKpB,wBAAwB;EACtB,UAAU,ECXP,KAAK;EDYR,aAAa,ECZV,KAAK",
+"sources": ["../../sass/layout/recentphoto.scss","../../sass/theme/_spacing.scss"],
 "names": [],
 "file": "recentphoto.css"
 }

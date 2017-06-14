@@ -1,9 +1,13 @@
-.view-recent-photos .views-row {
+.view-recent-photos .views-row, .view-assortiment-filter .views-row {
   width: 50%;
   float: left; }
-  .view-recent-photos .views-row img {
+  .view-recent-photos .views-row img, .view-assortiment-filter .views-row img {
     width: 100%;
     height: 100%;
     display: block; }
+
+.view-assortiment-filter {
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=recentphoto.css.map */
