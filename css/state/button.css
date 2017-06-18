@@ -1,9 +1,13 @@
 .btn-blue .field__item a:hover {
-  background-color: transparent;
-  color: #004BA8; }
+  background-color: #193F6E;
+  border: 3px solid #193F6E; }
 
 .more-link a:hover {
-  background-color: transparent;
-  color: #47F08F; }
+  background-color: #12d967;
+  border: 3px solid #12d967; }
+
+#edit-submit:hover:hover {
+  background-color: #12d967;
+  border: 3px solid #12d967; }
 
 /*# sourceMappingURL=button.css.map */

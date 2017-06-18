@@ -4,9 +4,9 @@ header {
   padding-bottom: 25px; }
 
 #block-sitebranding {
-  height: 25px;
-  width: 60px;
-  margin: 0 auto 5px auto; }
+  height: auto;
+  width: 125px;
+  margin: 0 auto 25px auto; }
 
 nav {
   font-weight: 700;

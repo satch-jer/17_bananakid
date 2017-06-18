@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Lato:400,700,900");
+#block-contactblock {
+  max-width: 960px;
+  margin: 0 auto 150px auto; }
+
+label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  min-width: 250px;
+  width: 50%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #D2CBCB; }
+
+#edit-preview {
+  display: none; }
+
+/*# sourceMappingURL=form.css.map */

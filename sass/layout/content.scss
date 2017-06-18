@@ -15,7 +15,7 @@
 
   .field--type-link{
     font-weight: 700;
-    margin-top: $m;
+    margin-top: $s;
     font-size: 18px;
     a{
       color: $kiwi;
@@ -23,4 +23,42 @@
 
     }
   }
+}
+
+//same as blue block, but with white background
+#block-overons{
+  color: $night;
+  padding: $xxl $s;
+  text-align: left;
+
+  p{
+    padding-bottom: $s;
+  }
+
+  p:after{
+    padding-bottom: 0;
+  }
+
+  div{
+    margin: 0 auto;
+    max-width: 960px;
+  }
+
+  .field--type-link{
+    font-weight: 700;
+    //smaller margin because p has margin too
+    margin-top: $s;
+    font-size: 18px;
+
+    a{
+      color: $kiwi;
+      transition: all .2s ease-in-out;
+    }
+  }
+}
+
+#block-contactblockintrocontact{
+  color: $night;
+  padding: $xxl $s $l $s;
+  text-align: left;
 }

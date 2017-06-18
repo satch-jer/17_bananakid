@@ -1,0 +1,11 @@
+#block-openingsurencontact, #block-adrescontact {
+  width: 50%;
+  float: left;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: left; }
+  #block-openingsurencontact ul li, #block-adrescontact ul li {
+    display: block;
+    padding-bottom: 5px; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,30 @@
+@import "../theme/colors", "../theme/fonts", "../theme/spacing";
+
+#block-contactblock{
+  max-width: 960px;
+  margin: 0 auto $xxl auto;
+}
+
+label{
+  //screenreaders need to see this
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  min-width: 250px;
+  width: 50%;
+  margin-bottom: $s;
+  padding: $xs*2;
+  border: 1px solid $concrete;
+}
+
+#edit-preview{
+  display: none;
+}

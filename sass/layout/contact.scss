@@ -1,0 +1,16 @@
+@import "../theme/colors", "../theme/spacing";
+
+#block-openingsurencontact, #block-adrescontact{
+  width: 50%;
+  float: left;
+  padding-top: $xxl;
+  padding-bottom: $xxl;
+  text-align: left;
+
+  ul{
+    li{
+      display: block;
+      padding-bottom: $xs;
+    }
+  }
+}

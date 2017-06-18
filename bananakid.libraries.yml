@@ -13,9 +13,12 @@ global-styling:
       css/layout/content.css: {}
       css/layout/recentphoto.css: {}
       css/layout/brands.css: {}
+      css/layout/contact.css: {}
     component:
       css/component/text.css: {}
       css/component/button.css: {}
+      css/component/gmaps.css: {}
+      css/component/form.css: {}
     state:
       css/state/button.css: {}
       css/state/link.css: {}

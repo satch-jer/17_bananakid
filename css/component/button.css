@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Lato:400,700,900");
 .btn-blue .field__item {
   display: inline-block;
-  width: 100px;
   margin: 5px; }
   .btn-blue .field__item a {
     display: inline-block;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     background-color: #004BA8;
     color: #FFFFFF;
     border-radius: 25px;
@@ -30,5 +28,15 @@
     font-weight: 700;
     border: 3px solid #47F08F;
     transition: all .2s ease-in-out; }
+
+#edit-submit {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #47F08F;
+  color: #FFFFFF;
+  border-radius: 25px;
+  font-weight: 700;
+  border: 3px solid #47F08F;
+  transition: all .2s ease-in-out; }
 
 /*# sourceMappingURL=button.css.map */

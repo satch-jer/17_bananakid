@@ -10,10 +10,34 @@
     max-width: 960px; }
   .node__content .field--type-link {
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 18px; }
     .node__content .field--type-link a {
       color: #47F08F;
       transition: all .2s ease-in-out; }
+
+#block-overons {
+  color: #222222;
+  padding: 150px 25px;
+  text-align: left; }
+  #block-overons p {
+    padding-bottom: 25px; }
+  #block-overons p:after {
+    padding-bottom: 0; }
+  #block-overons div {
+    margin: 0 auto;
+    max-width: 960px; }
+  #block-overons .field--type-link {
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 18px; }
+    #block-overons .field--type-link a {
+      color: #47F08F;
+      transition: all .2s ease-in-out; }
+
+#block-contactblockintrocontact {
+  color: #222222;
+  padding: 150px 25px 75px 25px;
+  text-align: left; }
 
 /*# sourceMappingURL=content.css.map */
