@@ -1,15 +1,50 @@
 @import "../theme/colors", "../theme/spacing";
 
+.region-coordinates{
+  max-width: 960px;
+  margin: $xxl auto;
+  padding-left: $s;
+  font-size: 18px;
+  line-height: 2;
+}
+
+#block-introcontact{
+  text-align: left;
+  padding-bottom: $l;
+}
+
 #block-openingsurencontact, #block-adrescontact{
-  width: 50%;
-  float: left;
-  padding-top: $xxl;
-  padding-bottom: $xxl;
+  width: 100%;
   text-align: left;
 
   ul{
     li{
       display: block;
+      padding-bottom: $xs;
+    }
+  }
+
+  a{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+#block-openingsurencontact{
+  li:last-child{
+    padding-bottom: $xl;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #block-openingsurencontact, #block-adrescontact {
+    width: 50%;
+    float: left;
+    padding-bottom: $xxl;
+  }
+
+  #block-openingsurencontact{
+    li:last-child{
       padding-bottom: $xs;
     }
   }

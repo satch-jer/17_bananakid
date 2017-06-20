@@ -38,6 +38,8 @@
 #block-contactblockintrocontact {
   color: #222222;
   padding: 150px 25px 75px 25px;
-  text-align: left; }
+  text-align: left;
+  max-width: 960px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=content.css.map */

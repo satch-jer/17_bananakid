@@ -1,13 +1,22 @@
-.view-recent-photos .views-row, .view-assortiment-filter .views-row {
+.view-recent-photos .views-row, .view-filter-articles .views-row {
   width: 50%;
   float: left; }
-  .view-recent-photos .views-row img, .view-assortiment-filter .views-row img {
+  .view-recent-photos .views-row img, .view-filter-articles .views-row img {
     width: 100%;
     height: 100%;
     display: block; }
 
-.view-assortiment-filter {
-  margin-top: 100px;
-  margin-bottom: 100px; }
+.view-filter-articles {
+  margin-top: 150px;
+  margin-bottom: 150px; }
+  .view-filter-articles .view-filters {
+    margin-bottom: 100px; }
+    .view-filter-articles .view-filters li {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: 700; }
+      .view-filter-articles .view-filters li .active {
+        padding-bottom: 5px;
+        border-bottom: 3px solid #222222; }
 
 /*# sourceMappingURL=recentphoto.css.map */

@@ -1,7 +1,7 @@
-@import "../theme/spacing";
+@import "../theme/spacing", "../theme/colors";
 
 
-.view-recent-photos, .view-assortiment-filter{
+.view-recent-photos, .view-filter-articles{
   .views-row{
     width: 50%;
     float: left;
@@ -15,7 +15,23 @@
   }
 }
 
-.view-assortiment-filter{
-  margin-top: $xl;
-  margin-bottom: $xl;
+.view-filter-articles{
+  margin-top: $xxl;
+  margin-bottom: $xxl;
+
+  .view-filters{
+    margin-bottom: $xl;
+
+    li{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: 700;
+
+      .active{
+        padding-bottom: $xs;
+        border-bottom: 3px solid $night;
+      }
+    }
+  }
 }
+

@@ -1,11 +1,34 @@
+.region-coordinates {
+  max-width: 960px;
+  margin: 150px auto;
+  padding-left: 25px;
+  font-size: 18px;
+  line-height: 2; }
+
+#block-introcontact {
+  text-align: left;
+  padding-bottom: 75px; }
+
 #block-openingsurencontact, #block-adrescontact {
-  width: 50%;
-  float: left;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  width: 100%;
   text-align: left; }
   #block-openingsurencontact ul li, #block-adrescontact ul li {
     display: block;
     padding-bottom: 5px; }
+  #block-openingsurencontact a, #block-adrescontact a {
+    text-decoration: underline;
+    cursor: pointer; }
+
+#block-openingsurencontact li:last-child {
+  padding-bottom: 100px; }
+
+@media only screen and (min-width: 750px) {
+  #block-openingsurencontact, #block-adrescontact {
+    width: 50%;
+    float: left;
+    padding-bottom: 150px; }
+
+  #block-openingsurencontact li:last-child {
+    padding-bottom: 5px; } }
 
 /*# sourceMappingURL=contact.css.map */

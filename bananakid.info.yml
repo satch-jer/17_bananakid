@@ -15,5 +15,6 @@ libraries-override:
 regions:
   header: Header
   landing: Landing
+  coordinates: Coordinates
   content: Content
   footer: Footer

@@ -15,4 +15,7 @@ nav {
     padding: 5px;
     transition: all .2s ease-in-out; }
 
+.messages--status {
+  margin-bottom: 25px; }
+
 /*# sourceMappingURL=navigation.css.map */

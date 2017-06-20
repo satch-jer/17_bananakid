@@ -19,3 +19,8 @@ body{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+//remove outline from every element
+*:focus {
+  outline: none;
+}
