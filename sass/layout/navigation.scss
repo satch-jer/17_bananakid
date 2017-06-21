@@ -18,6 +18,14 @@ nav{
   li{
     padding: $xs;
     transition: all .2s ease-in-out;
+    a{
+      padding-bottom: $xs;
+    }
+  }
+
+  .is-active{
+    border-bottom: 3px solid $concrete;
+    color: $concrete;
   }
 }
 

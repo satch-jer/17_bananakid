@@ -1,5 +1,6 @@
 nav li:hover a {
-  color: #D2CBCB; }
+  color: #D2CBCB;
+  border-bottom: 3px solid #D2CBCB; }
 
 footer a:hover {
   color: #222222; }

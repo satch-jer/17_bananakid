@@ -3,11 +3,10 @@
 .btn-blue{
   .field__item{
     display: inline-block;
-    margin: $xs;
+    margin: 0 $xs;
 
     a{
       display: inline-block;
-      width: 100%;
       padding: 15px;
       background-color: $smurf;
       color: $snow;

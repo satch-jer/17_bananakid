@@ -4,6 +4,7 @@ nav{
   li:hover{
     a{
       color: $concrete;
+      border-bottom: 3px solid $concrete;
     }
   }
 }

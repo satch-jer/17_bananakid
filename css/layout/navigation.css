@@ -14,6 +14,11 @@ nav {
   nav li {
     padding: 5px;
     transition: all .2s ease-in-out; }
+    nav li a {
+      padding-bottom: 5px; }
+  nav .is-active {
+    border-bottom: 3px solid #D2CBCB;
+    color: #D2CBCB; }
 
 .messages--status {
   margin-bottom: 25px; }
