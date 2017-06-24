@@ -23,4 +23,8 @@ nav {
 .messages--status {
   margin-bottom: 25px; }
 
+@media only screen and (min-width: 750px) {
+  nav li {
+    padding: 25px; } }
+
 /*# sourceMappingURL=navigation.css.map */

@@ -10,10 +10,23 @@
 .region-landing{
   display: table-cell;
   vertical-align: middle;
+  position: relative;
 }
 
 .inner-landing{
   text-align: center;
+  cursor: pointer;
+}
+
+#scroll_down{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: $snow;
+  padding-bottom: $s;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1025px) {

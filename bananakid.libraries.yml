@@ -34,3 +34,8 @@ landingheight:
   version: 1
   js:
     js/landingheight.js: {}
+
+merken:
+  version: 1
+  js:
+    js/merken.js: {}

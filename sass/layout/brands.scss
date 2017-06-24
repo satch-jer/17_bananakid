@@ -12,11 +12,22 @@
     width: 25%;
     height: $xxl;
     float: left;
-    display: table;
+    position: relative;
 
-    .views-field-field-field-image-merk{
-      display: table-cell;
-      vertical-align: middle;
+    .views-field-field-field-image-merk, .views-field-field-link-merk{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;    }
+
+    .views-field-field-link-merk{
+      z-index: 10;
+      a{
+        display: inline-block;
+        height: $xxl;
+        color: transparent;
+      }
     }
 
     img{

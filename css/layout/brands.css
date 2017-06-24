@@ -9,10 +9,19 @@
     width: 25%;
     height: 150px;
     float: left;
-    display: table; }
-    .view-merken .views-row .views-field-field-field-image-merk {
-      display: table-cell;
-      vertical-align: middle; }
+    position: relative; }
+    .view-merken .views-row .views-field-field-field-image-merk, .view-merken .views-row .views-field-field-link-merk {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .view-merken .views-row .views-field-field-link-merk {
+      z-index: 10; }
+      .view-merken .views-row .views-field-field-link-merk a {
+        display: inline-block;
+        height: 150px;
+        color: transparent; }
     .view-merken .views-row img {
       min-width: 100px;
       width: 50%;

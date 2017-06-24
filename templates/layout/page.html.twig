@@ -38,6 +38,7 @@
 #}
 
 {{ attach_library('bananakid/landingheight') }}
+{{ attach_library('bananakid/merken') }}
 
 <div class="layout-container">
 
@@ -50,6 +51,7 @@
 
     <div class="layout-landing" style="background-image: url('{{ file_url(node.field_basic_image_landing.0.entity.uri.value) }}');background-size:cover;background-attachment: fixed;">
       {{ page.landing }}
+      <a href="#" id="scroll_down">[ Scroll down ]</a>
     </div>{# /.layout-landing #}
 
     <div class="layout-content">
