@@ -1,6 +1,7 @@
 .view-recent-photos .views-row, .view-filter-articles .views-row {
   width: 50%;
-  float: left; }
+  float: left;
+  overflow: hidden; }
   .view-recent-photos .views-row img, .view-filter-articles .views-row img {
     width: 100%;
     height: 100%;

@@ -39,3 +39,9 @@ merken:
   version: 1
   js:
     js/merken.js: {}
+
+masonry:
+  version: 1.x
+  js:
+    https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js: {}
+    js/masonry.js: {}

@@ -16,22 +16,22 @@
       color: #47F08F;
       transition: all .2s ease-in-out; }
 
-#block-overons {
+#block-overons, #block-overonsover {
   color: #222222;
   padding: 150px 25px;
   text-align: left; }
-  #block-overons p {
+  #block-overons p, #block-overonsover p {
     padding-bottom: 25px; }
-  #block-overons p:after {
+  #block-overons p:after, #block-overonsover p:after {
     padding-bottom: 0; }
-  #block-overons div {
+  #block-overons div, #block-overonsover div {
     margin: 0 auto;
     max-width: 960px; }
-  #block-overons .field--type-link {
+  #block-overons .field--type-link, #block-overonsover .field--type-link {
     font-weight: 700;
     margin-top: 25px;
     font-size: 18px; }
-    #block-overons .field--type-link a {
+    #block-overons .field--type-link a, #block-overonsover .field--type-link a {
       color: #47F08F;
       transition: all .2s ease-in-out; }
 

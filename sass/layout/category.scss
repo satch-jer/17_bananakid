@@ -14,13 +14,12 @@
     }
   }
 
-  .views-field-name{
+  .views-field-field-link-category{
     position: absolute;
     text-align: center;
     width: 100%;
     height: 100%;
     transition: all .2s ease-in-out;
-
 
     a{
       border: 2px solid $snow;
@@ -28,6 +27,7 @@
       width: $xl;
       padding-top: 15px;
       padding-bottom: 15px;
+      margin-top: 40%;
       text-align: center;
       color: $snow;
       display: inline-block;
@@ -38,11 +38,12 @@
     }
   }
 
-  .views-field-name:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
+  .views-field-field-link-category:before {
     vertical-align: middle;
+    .field-content{
+      content: '';
+      display: inline-block;
+    }
   }
 
   .views-row:nth-child(2){
